@@ -1,0 +1,66 @@
+.Menu{
+    position: absolute;
+    top: 9vh;
+    left: 5%;
+    width: 90%;
+    background: linear-gradient(0deg, rgba(98,98,98,0.8) 0%, rgba(60,60,60,0.8) 100%);
+    padding: 20px 60px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    z-index: 2;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.Menu p{
+    border-radius: 8px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border: 2px solid white;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 200px;
+    text-align: center;
+}
+.Menu p:hover{
+    background-color: rgba(212,44,44,0.8);
+ 
+    cursor: pointer;
+}
+@media screen and (max-width: 480px) {
+    .Menu{
+        position: absolute;
+        top: 9vh;
+        left: 5%;
+        width: 90%;
+        background: linear-gradient(0deg, rgba(98,98,98,0.8) 0%, rgba(60,60,60,0.8) 100%);
+        padding: 20px 60px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        z-index: 2;
+        color: white;
+        border: 2px solid white;
+        border-radius: 10px;
+        max-height: 80vh;
+        overflow-y: scroll;
+    }
+    .Menu p{
+        border-radius: 8px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        border: 2px solid white;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: bold;
+        width: 80%;
+        text-align: center;
+    }
+    .Menu p:hover{
+        background-color: rgba(212,44,44,0.8);
+     
+        cursor: pointer;
+    }
+}

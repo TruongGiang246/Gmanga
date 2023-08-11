@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,500&display=swap');
+.content{
+    width: 1170px;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.512);
+    border-radius: 10px;
+    padding: 20px;
+    font-family: kanit;
+    border: 2px solid rgba(255, 255, 255, 0.516);
+   
+}
+.content_title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content_title h2:first-child{
+    padding-left: 10px;
+    height: 10%;
+    font-size: 50px;
+    color: white;
+}
+
+.content_title h2:last-child{
+    padding-left: 10px;
+    height: 10%;
+    font-size: 50px;
+    color: red;
+    cursor: pointer;
+}
+
+.content_box{
+    margin-top: 10px;
+    width: 100%;
+    min-height: 90vh;
+   
+    padding: 10px;
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.content_box_wrapper{
+    
+    height: 300px;
+    width: 200px;
+    margin: 10px;
+    position: relative;
+}
+.content_box_wrapper img{
+    height: 80%;
+}
+.content_box_wrapper p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    height: 20%;
+}
+.content_box_wrapper_i{
+    margin: 5px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 30px;
+    width: 30px;
+    padding: 0 5px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+@media screen and (max-width: 765px){
+    .content{
+        margin-top: 50px;
+        width: 90%;
+        min-height: 80vh;
+        background-color: rgba(0, 0, 0, 0.512);
+        border-radius: 10px;
+        padding: 20px;
+        font-family: kanit;
+        border: 2px solid rgba(255, 255, 255, 0.516);
+    }
+    
+    .content_title h2:first-child{
+        padding-left: 10px;
+        height: 10%;
+        font-size: 40px;
+        color: white;
+    }
+    
+    .content_title h2:last-child{
+        padding-left: 10px;
+        height: 10%;
+        font-size: 40px;
+        color: red;
+        cursor: pointer;
+    }
+    .content_box{
+        
+        width: 100%;
+        min-height:100%;
+       
+        
+        display: flex;
+        
+        justify-content: center;
+       
+    }
+    .content_box_wrapper{
+        
+        height: 300px;
+        width: 200px;
+        
+        position: relative;
+    }
+    .content_box_wrapper img{
+        height: 80%;
+    }
+    .content_box_wrapper p{
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        height: 20%;
+    }
+}
+@media screen and (min-width:765px) and (max-width:1024px) {
+    .content{
+        margin-top: 50px;
+        width: 90%;
+        min-height: 80vh;
+        background-color: rgba(0, 0, 0, 0.512);
+        border-radius: 10px;
+        padding: 20px;
+        font-family: kanit;
+        border: 2px solid rgba(255, 255, 255, 0.516);
+    }
+    
+    .content_title h2:first-child{
+        padding-left: 10px;
+        height: 10%;
+        font-size: 40px;
+        color: white;
+    }
+    
+    .content_title h2:last-child{
+        padding-left: 10px;
+        height: 10%;
+        font-size: 40px;
+        color: red;
+        cursor: pointer;
+    }
+    .content_box{
+        width: 100%;
+        min-height:100%;
+        display: flex;
+        justify-content: flex-start;
+       
+    }
+    .content_box_wrapper{
+        
+        height: 300px;
+        width: 200px;
+        
+        position: relative;
+    }
+    .content_box_wrapper img{
+        height: 80%;
+    }
+    .content_box_wrapper p{
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        height: 20%;
+    }
+}

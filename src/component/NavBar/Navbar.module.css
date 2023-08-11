@@ -1,0 +1,179 @@
+.NavBar{
+    height: 9vh;
+    width: 100%;
+    display: block;
+    background-color: transparent;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+
+}
+
+.NavContent{
+    background-color: transparent;
+    height: 70%;
+    width: 90%;
+    display: flex;
+}
+.NavIcon{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.NavIcon img{
+    width: 32px;
+    height: 32px;
+    margin: 3px;
+}
+.NavMenu{
+    display: flex;
+    flex: 3;
+    color: white;
+    margin-left:15px;
+
+    align-items: center;
+}
+.NavMenu p{
+    margin-left: 17px;
+    margin-right: 17px;
+    font-size: 17px;
+   
+}
+.NavMenu p:hover{
+   
+    font-weight: bold;
+    cursor: pointer;
+    color: rgb(212, 44, 44);
+}
+.NavSearch{
+    display: flex;
+    align-items: center;
+    flex: 2;
+}
+.NavSearch input{
+    height: 80%;
+    width: 75%;
+    border-radius: 15px 0px 0px 15px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    border: 2px solid rgb(39, 39, 39);
+
+}
+
+.NavSearch button{
+    height: 80%;
+    width: 15%;
+    border: none;
+    border-radius: 0px 25px 25px 0px;
+    background-color: rgb(39, 39, 39);
+    color: white;
+    font-size: 20px;
+}
+@media screen and (max-width: 480px) {
+    .NavBar{
+        margin-left: 10px;
+        width: 95vw;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: transparent;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: sans-serif;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+    }
+    
+    .NavContent{
+        flex-wrap: wrap;
+        background-color: transparent;
+        height: 70%;
+        width: 100%;
+        display: flex;
+    }
+    .NavIcon{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+        font-size: 20px;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .NavIcon img{
+        width: 32px;
+        height: 32px;
+        margin: 3px;
+    }
+    .NavMenu{
+        display: flex;
+        flex: 3;
+        color: white;
+        margin-left:15px;
+    
+        align-items: center;
+    }
+    .NavMenu p{
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 17px;
+        background-color: black;
+        padding: 8px;
+        border-radius: 10px;
+    }
+    .NavMenu p:hover{
+       
+        font-weight: bold;
+        cursor: pointer;
+        color: rgb(212, 44, 44);
+    }
+    .NavSearch{
+        display: flex;
+        align-items: center;
+        flex: 2;
+    }
+    .NavSearch input{
+        height: 80%;
+        width: 75%;
+        border-radius: 15px 0px 0px 15px;
+        border: none;
+        outline: none;
+        font-size: 20px;
+        background-color: transparent;
+        color: white;
+        padding: 10px;
+        border: 2px solid black;
+    
+    }
+    
+    .NavSearch button{
+        height: 80%;
+        width: 25%;
+        border: none;
+        border-radius: 0px 25px 25px 0px;
+        background-color: black;
+        color: white;
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,23 @@
+.footer{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: sans-serif;
+    background: linear-gradient(180deg, rgba(172,42,42,1) 0%, rgba(113,6,10,1) 100%);
+}
+.footer_icon{
+    font-size: 25px;
+    cursor: pointer;
+}
+.footer p{
+    font-size: 13px;
+}
+a{
+    text-decoration: none;
+}
+.footer > a{
+    display: inline-block;
+}
