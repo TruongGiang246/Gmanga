@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Gmanga/static/css/main.cfdc54f1.css",
-    "main.js": "/Gmanga/static/js/main.90a22125.js",
+    "main.js": "/Gmanga/static/js/main.0a3472b8.js",
     "static/js/787.c0ceccae.chunk.js": "/Gmanga/static/js/787.c0ceccae.chunk.js",
     "static/media/G.png": "/Gmanga/static/media/G.51e65efaf2cbfed2bb0b.png",
     "index.html": "/Gmanga/index.html",
     "main.cfdc54f1.css.map": "/Gmanga/static/css/main.cfdc54f1.css.map",
-    "main.90a22125.js.map": "/Gmanga/static/js/main.90a22125.js.map",
+    "main.0a3472b8.js.map": "/Gmanga/static/js/main.0a3472b8.js.map",
     "787.c0ceccae.chunk.js.map": "/Gmanga/static/js/787.c0ceccae.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cfdc54f1.css",
-    "static/js/main.90a22125.js"
+    "static/js/main.0a3472b8.js"
   ]
 }
